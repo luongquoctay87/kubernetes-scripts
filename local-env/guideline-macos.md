@@ -7,7 +7,7 @@
 
 ## 1. Install docker:
 
-[docker](https://minikube.sigs.k8s.io/docs/drivers/docker/)
+[install docker](https://minikube.sigs.k8s.io/docs/drivers/docker/)
 
 - ***Requirements***
     - Install Docker 18.09 or higher (20.10 or higher is recommended)
