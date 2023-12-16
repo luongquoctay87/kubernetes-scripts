@@ -184,5 +184,5 @@ nodeSelector:
     ```
 - Chart can now easily be installed by `helm install`
     ```
-    helm install <chart-name> ./first-chart-0.1.0.tgz
+    helm install <chart-name> <helm-chart>
     ```
