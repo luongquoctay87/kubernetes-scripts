@@ -41,7 +41,7 @@ securityContext: {}
 
 service:
   type: ClusterIP
-  port: 7749
+  port: 2631
 
 ingress:
   enabled: false
@@ -96,3 +96,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# Application config
+jwtSecretKey: QXBpQFNlY3JldC5LZXk=
+
+apiEndpoint: http://api-local.k8s/auth
